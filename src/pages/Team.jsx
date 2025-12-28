@@ -2,7 +2,7 @@ import { useMemo, useState, useRef } from "react";
 import SwipeRow from "../components/SwipeRow";
 import ProfileModal from "../components/ProfileModal";
 import { team } from "../data/teamData";
-import "../app.css";
+import "../App.css";
 
 
 function App() {
