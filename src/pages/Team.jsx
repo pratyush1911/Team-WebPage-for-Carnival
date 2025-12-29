@@ -4,13 +4,12 @@ import ProfileModal from "../components/ProfileModal";
 import { team } from "../data/teamData";
 import "../App.css";
 
-
 function App() {
   const row1 = team.filter((_, i) => i % 2 === 0);
   const row2 = team.filter((_, i) => i % 2 === 1);
 
   const [bgTheme, setBgTheme] = useState(
-    "from-[#0f0f0f] via-[#141414] to-[#050505]"
+    "from-[#f9fafb] via-[#f1f5f9] to-[#e5e7eb]"
   );
 
   const [selectedMember, setSelectedMember] = useState(null);
